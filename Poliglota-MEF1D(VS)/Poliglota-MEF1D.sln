@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poliglota-MEF1D", "Poliglota-MEF1D\Poliglota-MEF1D.csproj", "{ABD7EB2F-8286-4B21-B9EA-55B2C75A7370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABD7EB2F-8286-4B21-B9EA-55B2C75A7370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD7EB2F-8286-4B21-B9EA-55B2C75A7370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD7EB2F-8286-4B21-B9EA-55B2C75A7370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD7EB2F-8286-4B21-B9EA-55B2C75A7370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7888E915-C5D6-4B84-A112-9EF6DB8AD434}
+	EndGlobalSection
+EndGlobal
