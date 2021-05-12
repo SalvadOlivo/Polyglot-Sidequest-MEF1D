@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Data;
 using static Poliglota_MEF1D.Classes;
 using static Poliglota_MEF1D.MathTools;
 using static Poliglota_MEF1D.Sel;
@@ -17,7 +18,7 @@ namespace Poliglota_MEF1D
 //- El arreglo de objetos a llenar con la informaciÃ³n extraida
 //La funciÃ³n extrae del archivo de texto los datos de interÃ©s en la malla
 //de acuerdo a los parÃ¡metros enviados.
-		private void obtenerDatos(istream file, int nlines, int n, int mode, item[] item_list)
+		private void obtenerDatos( int nlines, int n, int mode, item[] item_list)
 			{
 				//Se prepara una variable string para leer las lÃ­neas a omitir
 				string line;

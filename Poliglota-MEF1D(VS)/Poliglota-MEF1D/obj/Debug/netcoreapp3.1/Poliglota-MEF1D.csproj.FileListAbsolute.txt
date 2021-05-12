@@ -11,3 +11,9 @@ C:\Users\ivane\source\repos\Poliglota-MEF1D\Poliglota-MEF1D\obj\Debug\netcoreapp
 C:\Users\ivane\source\repos\Poliglota-MEF1D\Poliglota-MEF1D\obj\Debug\netcoreapp3.1\Poliglota-MEF1D.dll
 C:\Users\ivane\source\repos\Poliglota-MEF1D\Poliglota-MEF1D\obj\Debug\netcoreapp3.1\Poliglota-MEF1D.pdb
 C:\Users\ivane\source\repos\Poliglota-MEF1D\Poliglota-MEF1D\obj\Debug\netcoreapp3.1\Poliglota-MEF1D.genruntimeconfig.cache
+C:\Users\Walter\Documents\GitHub\Polyglot-Sidequest-MEF1D\Poliglota-MEF1D(VS)\Poliglota-MEF1D\obj\Debug\netcoreapp3.1\Poliglota-MEF1D.csprojAssemblyReference.cache
+C:\Users\Walter\Documents\GitHub\Polyglot-Sidequest-MEF1D\Poliglota-MEF1D(VS)\Poliglota-MEF1D\obj\Debug\netcoreapp3.1\Poliglota-MEF1D.AssemblyInfoInputs.cache
+C:\Users\Walter\Documents\GitHub\Polyglot-Sidequest-MEF1D\Poliglota-MEF1D(VS)\Poliglota-MEF1D\obj\Debug\netcoreapp3.1\Poliglota-MEF1D.AssemblyInfo.cs
+C:\Users\Walter\Documents\GitHub\Polyglot-Sidequest-MEF1D\Poliglota-MEF1D(VS)\Poliglota-MEF1D\obj\Debug\netcoreapp3.1\Poliglota-MEF1D.csproj.CoreCompileInputs.cache
+C:\Users\Walter\Documents\GitHub\Polyglot-Sidequest-MEF1D\Poliglota-MEF1D(VS)\Poliglota-MEF1D\obj\Debug\netcoreapp3.1\Poliglota-MEF1D.dll
+C:\Users\Walter\Documents\GitHub\Polyglot-Sidequest-MEF1D\Poliglota-MEF1D(VS)\Poliglota-MEF1D\obj\Debug\netcoreapp3.1\Poliglota-MEF1D.pdb

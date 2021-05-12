@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Data;
+using System.Numerics;
 using static Poliglota_MEF1D.Classes;
 using static Poliglota_MEF1D.MathTools;
 using static Poliglota_MEF1D.Tools;
