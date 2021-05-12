@@ -8,3 +8,6 @@
 //---------------------------------------------------------------------------------+
 // Tampoco encontramos un equivalente de la libreria Ifstream  :(                  |
 //---------------------------------------------------------------------------------+
+
+Al final optamos por quitar las partes donde implementabamos el MathNet porque
+nos daban aun mas errores. :(
