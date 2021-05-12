@@ -128,7 +128,9 @@ namespace Poliglota_MEF1D
 				for (int i = 0; i < M.Count; i++)
 				{
 				//En cada fila se elimina la columna j
-				//No existe un equivalente directo al método de 'borrar' de vector STL en C #
+				//----------------------------------------------------------------------------+
+				//No existe un equivalente directo al método de 'erase' de vector  en C # :(  |
+				//----------------------------------------------------------------------------+
 					M[i].erase(M[i].GetEnumerator() + j);
 				}
 			}
@@ -157,9 +159,9 @@ namespace Poliglota_MEF1D
 						copyMatrix(new List<List<float>>(M), minor);
 						getMinor(minor, 0, i);
 
-						//Se calculala contribuciÃ³n de la celda actual al determinante
-						//(valor alternante * celda actual * determinante de menor actual)
-						det += Math.Pow(-1, i) * M[0][i] * determinant(new List<List<float>>(minor));
+                    //Se calculala contribuciÃ³n de la celda actual al determinante
+                    //(valor alternante * celda actual * determinante de menor actual)
+                    (void)(det += Math.Pow(-1, i) * M[0][i] * determinant(new List<List<float>>(minor)));
 					}
 					return det;
 				}
@@ -188,7 +190,7 @@ namespace Poliglota_MEF1D
 						getMinor(minor, i, j);
 						//Se calcula el cofactor de la posiciÃ³n actual
 						//      alternante * determinante del menor de la posiciÃ³n actual
-						Cof[i][j] = Math.Pow(-1, i + j) * determinant(new List<List<float>>(minor));
+						Cof[i][j] = (float)(Math.Pow(-1, i + j) * determinant(new List<List<float>>(minor)));
 					}
 				}
 			}

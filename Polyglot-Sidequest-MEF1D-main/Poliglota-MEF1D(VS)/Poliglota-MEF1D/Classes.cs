@@ -204,18 +204,23 @@ namespace Poliglota_MEF1D
 			//MÃ©todo para obtener un nodo en particular
 			public node getNode(int i)
 			{
-				// Se determinó que la siguiente línea contiene una llamada al constructor de copia; esto debe verificarse
-				//y debe crearse un constructor de copia
-				//ORIGINAL: return node_list[i];
+				//--------------------------------------------------------------------------+
+				//la siguiente línea contiene una llamada al constructor                    |
+				//y debe crearse otro constructor                                           |
+				//el codigo en cpp era -> return node_list[i];                         |
+				//--------------------------------------------------------------------------+
 				return new node(node_list[i]);
 			}
 
 			//MÃ©todo para obtener un elemento en particular
 			public element getElement(int i)
 			{
-				// Se determinó que la siguiente línea contiene una llamada al constructor de copia; esto debe verificarse
-				//y debe crearse un constructor de copia
-				//ORIGINAL: return element_list[i];
+				//--------------------------------------------------------------------------+
+				//la siguiente línea contiene una llamada al constructor                    |
+				//y debe crearse otro constructor                                           |
+				//el codigo en cpp era -> return element_list[i];                           |
+				//--------------------------------------------------------------------------+
+
 				return new element(element_list[i]);
 			}
 
@@ -225,16 +230,20 @@ namespace Poliglota_MEF1D
 			{
 				if (type == (int)sizes.DIRICHLET)
 				{
-					// Se determinó que la siguiente línea contiene una llamada al constructor de copia; esto debe verificarse
-					//y debe crearse un constructor de copia
-					//ORIGINAL: return dirichlet_list[i];
+					//--------------------------------------------------------------------------+
+					//la siguiente línea contiene una llamada al constructor                    |
+					//y debe crearse otro constructor                                           |
+					//el codigo en cpp era -> return dirichlet_list[i];                         |
+					//--------------------------------------------------------------------------+
 					return new condition(dirichlet_list[i]);
 				}
 				else
 				{
-					// Se determinó que la siguiente línea contiene una llamada al constructor de copia; esto debe verificarse
-					//y debe crearse un constructor de copia
-					//ORIGINA: return neumann_list[i];
+					//--------------------------------------------------------------------------+
+					//la siguiente línea contiene una llamada al constructor                    |
+					//y debe crearse un otro constructor                                        |
+					//el codigo en cpp era -> return neumann_list[i];                           |
+					//--------------------------------------------------------------------------+
 					return new condition(neumann_list[i]);
 				}
 			}

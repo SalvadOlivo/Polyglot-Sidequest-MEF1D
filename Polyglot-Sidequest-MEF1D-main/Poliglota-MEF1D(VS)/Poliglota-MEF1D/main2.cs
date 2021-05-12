@@ -7,6 +7,18 @@ using static Poliglota_MEF1D.Sel;
 using static Poliglota_MEF1D.MathTools;
 using System.Numerics;
 
+//LO QUE NOS FALTO:  
+//---------------------------------------------------------------------------------+
+//No alcanzamos a terminar de pasar las clases Matrix y Vector                     |
+//al parecer no hay un equivalente directo en C#                                   |
+//encontramos una libreria llamada MathNet que tiene las clases Matrix y Vector    |
+//pero usa mas parametros y tiene otros metodos                                    |
+//se nos complico implementar la libreria MathNet                                  |
+//---------------------------------------------------------------------------------+
+// Tampoco encontramos un equivalente de la libreria Ifstream  :(                  |
+//---------------------------------------------------------------------------------+
+
+
 namespace Poliglota_MEF1D
 {
     class Main2

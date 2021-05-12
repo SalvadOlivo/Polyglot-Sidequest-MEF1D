@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivane\\source\\repos\\Poliglota-MEF1D\\Poliglota-MEF1D\\Poliglota-MEF1D.csproj",
+      "projectUniqueName": "C:\\Users\\ivane\\OneDrive\\Escritorio\\Aca\\Polyglot-Sidequest-MEF1D-main\\Poliglota-MEF1D(VS)\\Poliglota-MEF1D\\Poliglota-MEF1D.csproj",
       "projectName": "Poliglota-MEF1D",
-      "projectPath": "C:\\Users\\ivane\\source\\repos\\Poliglota-MEF1D\\Poliglota-MEF1D\\Poliglota-MEF1D.csproj",
+      "projectPath": "C:\\Users\\ivane\\OneDrive\\Escritorio\\Aca\\Polyglot-Sidequest-MEF1D-main\\Poliglota-MEF1D(VS)\\Poliglota-MEF1D\\Poliglota-MEF1D.csproj",
       "packagesPath": "C:\\Users\\ivane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivane\\source\\repos\\Poliglota-MEF1D\\Poliglota-MEF1D\\obj\\",
+      "outputPath": "C:\\Users\\ivane\\OneDrive\\Escritorio\\Aca\\Polyglot-Sidequest-MEF1D-main\\Poliglota-MEF1D(VS)\\Poliglota-MEF1D\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ivane\\AppData\\Roaming\\NuGet\\NuGet.Config",
